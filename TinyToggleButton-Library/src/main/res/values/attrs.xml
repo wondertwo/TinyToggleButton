@@ -1,0 +1,32 @@
+<resources>
+
+    <!--声明自定义组件TinyToggleBtn自定义属性-->
+    <declare-styleable name="tiny_toggle_btn">
+
+        <!--按钮整体风格样式-->
+        <attr name="toggle_btn_style" format="enum|string">
+            <enum name="tiny_style_a" value="1" />
+            <enum name="tiny_style_b" value="2" />
+            <enum name="tiny_style_c" value="3" />
+        </attr>
+
+        <!--按钮滑动动画持续时间-->
+        <attr name="animator_duration" format="integer"/>
+
+        <!--按钮是否支持动画-->
+        <attr name="animator_enable" format="boolean" />
+
+        <!--开关打开状态上层圆形按钮颜色值-->
+        <attr name="color_toggle_above_on" format="color|string"/>
+
+        <!--开关打开状态下层圆角矩形颜色值-->
+        <attr name="color_toggle_below_on" format="color|string"/>
+
+        <!--开关关闭状态上层圆形按钮颜色值-->
+        <attr name="color_toggle_above_off" format="color|string"/>
+
+        <!--开关关闭状态下层圆角矩形颜色值-->
+        <attr name="color_toggle_below_off" format="color|string"/>
+    </declare-styleable>
+
+</resources>

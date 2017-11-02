@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--底层椭圆形-->
+    <!--left,right,top,bottom等属性相当于margin属性，外边距-->
+    <item
+        android:width="42dp"
+        android:height="18dp"
+        android:bottom="6dp"
+        android:left="6dp"
+        android:right="6dp"
+        android:top="6dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#FF89CEA8" />
+            <corners android:radius="9dp" />
+        </shape>
+    </item>
+
+    <!--上层圆按钮-->
+    <item
+        android:width="30dp"
+        android:height="30dp"
+        android:left="24dp">
+        <shape android:shape="oval">
+            <solid android:color="#FF01A357" />
+        </shape>
+    </item>
+
+</layer-list>
