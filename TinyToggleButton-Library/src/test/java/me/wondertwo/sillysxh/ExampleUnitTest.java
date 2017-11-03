@@ -1,4 +1,4 @@
-package me.wondertwo.tinytogglebtn;
+package me.wondertwo.sillysxh;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package me.wondertwo.tinytogglebtn;
+package me.wondertwo.sillysxh;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

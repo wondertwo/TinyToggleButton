@@ -7,7 +7,7 @@
     android:gravity="center"
     android:orientation="vertical">
 
-    <me.wondertwo.tinytogglebtn.TinyToggleButton
+    <me.wondertwo.sillysxh.TinyButton
         android:id="@+id/tiny_toggle_button_1"
         android:layout_width="180dp"
         android:layout_height="wrap_content"
@@ -26,7 +26,7 @@
         android:textColor="@android:color/black"
         android:textSize="18sp" />
 
-    <me.wondertwo.tinytogglebtn.TinyToggleButton
+    <me.wondertwo.sillysxh.TinyButton
         android:id="@+id/tiny_toggle_button_3"
         android:layout_width="180dp"
         android:layout_height="wrap_content"
@@ -46,7 +46,7 @@
         android:textColor="@android:color/black"
         android:textSize="18sp" />
 
-    <me.wondertwo.tinytogglebtn.TinyToggleButton
+    <me.wondertwo.sillysxh.TinyButton
         android:id="@+id/tiny_toggle_button_2"
         android:layout_width="180dp"
         android:layout_height="wrap_content"

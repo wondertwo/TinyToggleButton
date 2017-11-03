@@ -1,4 +1,4 @@
-package me.wondertwo.tinytogglebtn;
+package me.wondertwo.sillysxh;
 
 import android.animation.ValueAnimator;
 import android.content.Context;
@@ -17,12 +17,12 @@ import android.view.animation.LinearInterpolator;
 import android.widget.Checkable;
 
 /**
- * TinyToggleButton. Created by wondertwo on 2017.10.05.
+ * TinyButton. Created by wondertwo on 2017.10.05.
  *
- * 后期考虑将开关控件功能扩展到三态点击。即全选、未选、半选三种状态
+ * 后期考虑将开关控件功能扩展到三态点击。即全选，未选，半选三种状态
  */
 
-public class TinyToggleButton extends View implements Checkable {
+public class TinyButton extends View implements Checkable {
 
     /* 属性动画ValueAnimator */
     private ValueAnimator mValueAnimator;
@@ -106,15 +106,15 @@ public class TinyToggleButton extends View implements Checkable {
         TINY_STYLE_A, TINY_STYLE_B, TINY_STYLE_C
     }
 
-    public TinyToggleButton(Context context) {
+    public TinyButton(Context context) {
         this(context, null);
     }
 
-    public TinyToggleButton(Context context, AttributeSet attrs) {
+    public TinyButton(Context context, AttributeSet attrs) {
         this(context, attrs, 0);
     }
 
-    public TinyToggleButton(Context context, AttributeSet attrs, int defStyleAttr) {
+    public TinyButton(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         initializeAttr(attrs);
         initializePaint();
@@ -420,7 +420,7 @@ public class TinyToggleButton extends View implements Checkable {
      * 开关控件点击监听器
      */
     public interface OnToggleClickListener {
-        void onToggleClick(TinyToggleButton button, boolean isChecked);
+        void onToggleClick(TinyButton button, boolean isChecked);
     }
 
 }

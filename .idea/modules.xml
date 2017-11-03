@@ -5,7 +5,6 @@
       <module fileurl="file://$PROJECT_DIR$/Samples/Samples.iml" filepath="$PROJECT_DIR$/Samples/Samples.iml" />
       <module fileurl="file://$PROJECT_DIR$/TinyToggleButton.iml" filepath="$PROJECT_DIR$/TinyToggleButton.iml" />
       <module fileurl="file://$PROJECT_DIR$/TinyToggleButton-Library/TinyToggleButton-Library.iml" filepath="$PROJECT_DIR$/TinyToggleButton-Library/TinyToggleButton-Library.iml" />
-      <module fileurl="file://$PROJECT_DIR$/TinyToggleButton-Library/TinyToggleButton-Library.iml" filepath="$PROJECT_DIR$/TinyToggleButton-Library/TinyToggleButton-Library.iml" />
     </modules>
   </component>
 </project>
