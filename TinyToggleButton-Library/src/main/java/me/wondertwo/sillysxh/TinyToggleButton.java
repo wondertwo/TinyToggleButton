@@ -22,7 +22,7 @@ import android.widget.Checkable;
  * 后期考虑将开关控件功能扩展到三态点击。即全选，未选，半选三种状态
  */
 
-public class TinyButton extends View implements Checkable {
+public class TinyToggleButton extends View implements Checkable {
 
     /* 属性动画ValueAnimator */
     private ValueAnimator mValueAnimator;
@@ -106,15 +106,15 @@ public class TinyButton extends View implements Checkable {
         TINY_STYLE_A, TINY_STYLE_B, TINY_STYLE_C
     }
 
-    public TinyButton(Context context) {
+    public TinyToggleButton(Context context) {
         this(context, null);
     }
 
-    public TinyButton(Context context, AttributeSet attrs) {
+    public TinyToggleButton(Context context, AttributeSet attrs) {
         this(context, attrs, 0);
     }
 
-    public TinyButton(Context context, AttributeSet attrs, int defStyleAttr) {
+    public TinyToggleButton(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         initializeAttr(attrs);
         initializePaint();
@@ -420,7 +420,7 @@ public class TinyButton extends View implements Checkable {
      * 开关控件点击监听器
      */
     public interface OnToggleClickListener {
-        void onToggleClick(TinyButton button, boolean isChecked);
+        void onToggleClick(TinyToggleButton button, boolean isChecked);
     }
 
 }
